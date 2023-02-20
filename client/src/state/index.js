@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   mode: "dark",
+  userId: "63701cc1f03239b7f700000e", // We don't need it when we implement the login func
 };
 
 export const globalSlice = createSlice({

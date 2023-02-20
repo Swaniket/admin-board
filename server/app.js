@@ -31,10 +31,10 @@ ROUTE DESCRIPTION -
     /management: Represents all the API required for the Management Section.
     /general: Represents all other APIs, like Users, Authentication.
 */
-app.use("/client", clientRoutes);
-app.use("/general", generalRoutes);
-app.use("/management", managementRoutes);
-app.use("/sales", salesRoutes);
+app.use("/api/client", clientRoutes);
+app.use("/api/general", generalRoutes);
+app.use("/api/management", managementRoutes);
+app.use("/api/sales", salesRoutes);
 
 /* MONGOOSE SETUP & Start Server */
 const PORT = process.env.PORT || 9000;

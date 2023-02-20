@@ -7,8 +7,6 @@ import {
   Toolbar,
   useTheme,
 } from "@mui/material";
-import { toggleMode } from "state";
-
 import {
   LightModeOutlined,
   DarkModeOutlined,
@@ -18,6 +16,7 @@ import {
   ArrowDropDownOutlined,
 } from "@mui/icons-material";
 import FlexBetween from "./FlexBetween";
+import { toggleMode } from "state";
 import profileImage from "assets/profile.jpeg";
 
 function Navbar({ isSidebarOpen, setIsSidebarOpen }) {

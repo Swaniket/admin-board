@@ -6,7 +6,7 @@ import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "theme";
 import { Navigate, Route, Routes } from "react-router-dom";
 
-import Layout from "pages/layout";
+import Layout from "layout";
 import Dashboard from "pages/dashboard";
 
 function App() {
